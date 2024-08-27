@@ -1,3 +1,4 @@
+```bash
 provider "aws" {
     region = "us-east-1"
     access_key = "<aws user access key"
@@ -18,3 +19,4 @@ resource "aws_dynamodb_table" "terraform_lock" {
         type = "S"
     }
 }
+```
